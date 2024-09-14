@@ -1,0 +1,49 @@
+/* src/Dashboard.css */
+
+.App-header {
+  background-color: #282c34;
+  padding: 20px;
+  color: white;
+}
+.dashboard {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+input, select, button {
+  margin: 10px;
+  padding: 10px 20px;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+table {
+  margin: 20px auto;
+  border-collapse: collapse;
+  width: 80%;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+.chart-container{
+  display: flex;
+  justify-content: center;
+  gap: 4rem;
+  padding: 2rem 1rem;
+}
